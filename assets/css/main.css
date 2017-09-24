@@ -368,6 +368,10 @@ textarea {
     align-items: center
 }
 
+.slide img {
+    max-width: 100%;
+}
+
 .posts {
     padding: 50px 0;
     text-align: center
@@ -423,7 +427,7 @@ textarea {
 }
 
 .content .main_content {
-    width: 850px
+    max-width: 750px
 }
 
 .content .main_content .others__posts {
@@ -442,7 +446,7 @@ textarea {
 }
 
 .content .main_content .others__posts .post__half img {
-    width: 100%
+    max-width: 100%
 }
 
 .content .aside_content {
@@ -837,6 +841,10 @@ input[type=search]:-moz-placeholder {
 
 .article_full__footer .article_full__socials .socials__items .socials__item .socials__link span .socials__image {
     display: block
+}
+
+.post img {
+    max-width: 100%;
 }
 
 .post__header .post__theme {
